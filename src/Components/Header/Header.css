@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  height: 8rem;
+  border-bottom: 2px solid #f59630;
+  position: fixed;
+  z-index: 999;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+}
+.watch {
+  border: 2px solid gray;
+  width: 12rem;
+  height: 4rem;
+  color: #87a2fb;
+  border-radius: 1rem;
+  font-size: 2rem;
+  /* padding: 1rem 2rem; */
+  cursor: pointer;
+}
+
+.site_title h2 {
+  font-size: 5rem;
+  color: #ff8b13;
+}
+.button_section {
+  display: flex;
+  gap: 2rem;
+}
+.button {
+  border: 2px solid gray;
+  width: 12rem;
+  height: 4rem;
+  color: white;
+  border-radius: 1rem;
+  font-size: 2rem;
+  /* padding: 1rem 2rem; */
+  cursor: pointer;
+}
+.button:hover {
+  border: 2px solid #ff8b13;
+}
+.watch:hover {
+  border: 2px solid #be5a83;
+}
+.Add_icon {
+  height: 4rem;
+  width: 5rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: none;
+}
+.Add_icon:hover {
+  border: 2px solid #ff8b13;
+}
+.drop_button {
+  padding: 1rem 0 0 0;
+  color: white;
+  font-size: 2.5rem;
+  width: 100%;
+  margin: 0 0 1rem 0;
+  border-radius: 1rem;
+  background: gray;
+}
+.drop_button:hover {
+  border: 2px solid #ff8b13;
+}
+.drop_down {
+  border-radius: 2rem;
+  border: 2px solid white;
+  position: absolute;
+  top: 8rem;
+  right: 1rem;
+  width: 30%;
+  height: 14rem;
+  padding: 1rem;
+  display: none;
+}
+
+@media (max-width: 762px) {
+  .button {
+    display: none;
+  }
+  .Add_icon {
+    display: block;
+  }
+  .drop_down {
+    display: block;
+  }
+}
