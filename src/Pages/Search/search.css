@@ -42,6 +42,7 @@
   display: flex;
   gap: 3rem;
   flex-wrap: wrap;
+  justify-content: space-around;
   padding: 9rem 2rem 8rem;
 }
 .active_search {
@@ -82,10 +83,14 @@
   }
 }
 @media (max-width: 462px) {
+  .search_section {
+    padding: 1rem;
+  }
   .input {
     width: 75%;
   }
   .search_content {
+    padding: 12rem 0rem 5rem;
     gap: 1rem;
     top: 5rem;
   }
