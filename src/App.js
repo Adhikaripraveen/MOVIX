@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Trending from "./Pages/Trending/Trending";
 import Tv from "./Pages/TV/Tv";
 import Search from "./Pages/Search/Search";
@@ -15,8 +15,7 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" exact element={<Trending />} />
-        <Route path="/trending" element={<Trending />} />
+        <Route path="/" element={<Trending />} />
         <Route path="/movies" element={<Movies />} />
         <Route path="/tv" element={<Tv />} />
         <Route path="/search" element={<Search />} />

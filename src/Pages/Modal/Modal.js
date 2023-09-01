@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Carousel from "../../Components/Carousel/Carousel";
 import StarIcon from "@mui/icons-material/Star";
-import { unavailable } from "../../config/config";
+import { unavailable, unavailableLandscape } from "../../config/config";
 import { useWatchList } from "../../WatchListProvider";
 import axios from "axios";
 import "./modal.css";
@@ -74,8 +74,9 @@ const Modal = () => {
             <div className="img">
               <img
                 src={
-                  `https://image.tmdb.org/t/p/w500/${content.poster_path}` ||
-                  unavailable
+                  content.poster_path
+                    ? `https://image.tmdb.org/t/p/w500/${content.poster_path}`
+                    : unavailableLandscape
                 }
                 alt="content_image"
               />
@@ -150,7 +151,11 @@ const Modal = () => {
             <div className="season_section">
               <div className="poster_image">
                 <img
-                  src={`https://image.tmdb.org/t/p/w500/${content.poster_path}`}
+                  src={
+                    content.poster_path
+                      ? `https://image.tmdb.org/t/p/w500/${content.poster_path}`
+                      : unavailable
+                  }
                   alt="poster"
                 />
               </div>

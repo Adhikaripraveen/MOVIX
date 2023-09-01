@@ -78,7 +78,7 @@
   }
   .search_content {
     gap: 2rem;
-    padding: 9rem 0rem 8rem;
+    padding: 12rem 0rem 8rem;
   }
 }
 @media (max-width: 462px) {

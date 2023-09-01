@@ -10,12 +10,12 @@ const SingleContent = ({
   media_type,
   rating,
 }) => {
-  // const navigate = useNavigate();
+ 
   const ratingStyle = {
     backgroundColor: rating > 5 ? "green" : "red",
   };
-  const newRating = parseFloat(rating.toFixed(1));
-  // console.log(media_type);
+
+  
   return (
     <NavLink className="navLink" to={`/Modal/${id}/${media_type}`}>
       <div className="content">
@@ -31,9 +31,9 @@ const SingleContent = ({
           </div>
           <div className="detail">{formattedDate}</div>
         </div>
-        {newRating !== 0 && (
+        {rating !== 0 && (
           <div style={ratingStyle} className="rating">
-            {newRating}
+            {rating?.toFixed(1)}
           </div>
         )}
       </div>

@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       <div className="container">
-        <NavLink to="/trending" onClick={() => handleTabClick("trending")}>
+        <NavLink to="/" onClick={() => handleTabClick("trending")}>
           <WhatshotIcon style={tab === "trending" ? activeStyle : myStyle} />
           <p className={tab === "trending" ? "active" : ""}>Trending</p>
         </NavLink>

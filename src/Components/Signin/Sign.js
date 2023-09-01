@@ -29,7 +29,7 @@ const Sign = ({ show }) => {
         ...prevValidation,
         minLength: value.length >= 8,
         upperCase: /[A-Z]/.test(value),
-        char: /[!@#$%^&*()_+{}\[\]:;<>,.?~\\/-]/.test(value),
+        char: /[!@#$%^&*()_+{}[\]:;<>,.?~-]/.test(value),
       }));
     }
   };

@@ -57,14 +57,14 @@ const Search = () => {
     );
 
     setContent(data.results);
-    console.log(content);
+
     if (data.total_pages > 1) {
       setNumberOfPages(data.total_pages);
     }
     if (data.total_pages > 10) {
       setNumberOfPages(10);
     }
-    console.log(data);
+
     setSearchClicked(true);
   };
 
@@ -72,6 +72,7 @@ const Search = () => {
     if (searchClicked) {
       fetchSearch();
     }
+    // eslint-disable-next-line
   }, [type, currentPage, searchClicked]);
   const gettingText = (e) => {
     setSearchText(e.target.value);

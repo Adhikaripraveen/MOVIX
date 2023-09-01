@@ -37,7 +37,7 @@ const Header = () => {
 
   useEffect(() => {
     if (watchListItems) {
-      setIsLoading(false); // Set loading to false when watchListItems are available
+      setIsLoading(false);
     }
   }, [watchListItems]);
   return (
