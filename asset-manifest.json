@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MOVIX/static/css/main.b53ad887.css",
-    "main.js": "/MOVIX/static/js/main.4c3c57b0.js",
+    "main.css": "/MOVIX/static/css/main.ef87e93b.css",
+    "main.js": "/MOVIX/static/js/main.f0245b3b.js",
     "index.html": "/MOVIX/index.html",
-    "main.b53ad887.css.map": "/MOVIX/static/css/main.b53ad887.css.map",
-    "main.4c3c57b0.js.map": "/MOVIX/static/js/main.4c3c57b0.js.map"
+    "main.ef87e93b.css.map": "/MOVIX/static/css/main.ef87e93b.css.map",
+    "main.f0245b3b.js.map": "/MOVIX/static/js/main.f0245b3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b53ad887.css",
-    "static/js/main.4c3c57b0.js"
+    "static/css/main.ef87e93b.css",
+    "static/js/main.f0245b3b.js"
   ]
 }
