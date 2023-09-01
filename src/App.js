@@ -15,7 +15,8 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Trending />} />
+        <Route path="/trending" element={<Trending />} />
+        <Route path="/MOVIX" element={<Trending />} />
         <Route path="/movies" element={<Movies />} />
         <Route path="/tv" element={<Tv />} />
         <Route path="/search" element={<Search />} />
