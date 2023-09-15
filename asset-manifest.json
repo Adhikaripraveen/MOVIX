@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MOVIX/static/css/main.3eedcb33.css",
+    "main.css": "/MOVIX/static/css/main.b920d9a0.css",
     "main.js": "/MOVIX/static/js/main.3e5eedcf.js",
     "index.html": "/MOVIX/index.html",
-    "main.3eedcb33.css.map": "/MOVIX/static/css/main.3eedcb33.css.map",
+    "main.b920d9a0.css.map": "/MOVIX/static/css/main.b920d9a0.css.map",
     "main.3e5eedcf.js.map": "/MOVIX/static/js/main.3e5eedcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eedcb33.css",
+    "static/css/main.b920d9a0.css",
     "static/js/main.3e5eedcf.js"
   ]
 }
