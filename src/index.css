@@ -61,7 +61,7 @@ html {
 
 @media (max-width: 462px) {
   html {
-    font-size: 42.5%;
+    font-size: 45.5%;
     scroll-behavior: smooth;
   }
   .loading_container {
